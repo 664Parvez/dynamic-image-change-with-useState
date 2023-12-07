@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#background{
+    background-image: url("/public/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+.button_img{
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.button_img img {
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+}
+.main{
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+}
+.main_sofa {
+    height: 300px;
+    width: 100%;
+    filter: drop-shadow(3px 1px 4px #444444);
+}
